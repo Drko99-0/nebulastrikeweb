@@ -1,0 +1,22 @@
+# Logs
+logs/
+
+# Build output
+dist/
+
+# Node
+node_modules/
+
+# Env files
+.env
+*.env
+
+# SSH keys and private keys (no subir credenciales)
+*.ppk
+*.pem
+*.key
+*.crt
+gitkey.ppk
+
+# Large assets (evitar archivos >100MB en GitHub)
+public/bg-galaxy.gif
